@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logotipo" />
+      </a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace navegacion__enlace--activo" href="index.html"
+        >Tienda</a
+      >
+      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+      <h1>React JS</h1>
+
+      <div class="camisa">
+        <img src="img/3.jpg" alt="imagen de producto" class="camisa__imagen" />
+        <div class="camisa__contenido">
+          <p>
+            Nunc vitae gravida erat. Ut ipsum elit, cursus non sollicitudin ac,
+            tempor quis ligula. Vestibulum luctus porttitor odio, ac facilisis
+            augue consectetur luctus. Vivamus et rhoncus lacus. Proin sed
+            pulvinar purus. Cras hendrerit vel sapien vel hendrerit. Curabitur
+            quis purus id est consequat laoreet. Aenean non metus id tellus
+            dapibus gravida. Quisque vel mollis turpis. Integer vestibulum
+            pharetra imperdiet. Ut nibh justo, accumsan in bibendum vitae,
+            pharetra id enim. In facilisis ullamcorper dolor, ut sagittis ipsum
+            eleifend et. Nunc pulvinar justo et tellus finibus, a rhoncus dui
+            consectetur
+          </p>
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option disabled selected>-- Seleccionar Talla --</option>
+              <option>Chica</option>
+              <option>Mediana</option>
+              <option>Grande</option>
+            </select>
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="Agregar al Carrito"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__texto">
+        Front End Store -Todos los Derechos Reservados 2024
+      </p>
+    </footer>
+  </body>
+</html>
